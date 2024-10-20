@@ -1,0 +1,52 @@
+.container-music {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    background-color: rgba(63, 53, 110, 0.814);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+table {
+    width: max-content;
+    padding: 20px;
+}
+.card {
+    width: 370px;
+    height: 360px;
+    padding: 10px;
+    margin: 0 20px;
+    text-align: center;
+    color: rgb(212, 192, 246);
+    background-image: url("../images/style/prod_card.png");
+    background-size: cover;
+}
+
+table td {
+    margin: 20px;
+    padding: 20px;
+}
+table td:last-child {
+    padding: 20px;
+    color: rgb(212, 192, 246);
+    font-size: 21px;
+    font-weight: bold;
+}
+.track-list {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0 20px;
+    text-align: center;
+    color: rgb(212, 192, 246);
+    font-size: 18px;
+}

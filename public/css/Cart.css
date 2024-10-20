@@ -1,0 +1,151 @@
+.container-cart {
+    width: 100%;
+    height: 99vh;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    columns: 2;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(56, 44, 107, 0.887);
+}
+
+.cart-list {
+    width: 45%;
+    height: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(214, 206, 251);
+    font-size: 18px;
+    border-collapse: collapse;
+    border-right: 1px solid rgb(214, 206, 251);
+}
+
+.cart-list .remove_btn {
+    width: 40px;
+    border: none;
+    background-color: rgba(255, 99, 71, 0);
+    
+}
+.cart-list .remove_btn img {
+    width: 40px;
+}
+.cart-list .remove_btn:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+.cart-list table {
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(214, 206, 251);
+    font-size: 22px;
+    border-collapse: collapse
+}
+
+.cart-list td {
+    padding:5px ;
+    border-bottom: 1px solid rgb(214, 206, 251);
+}
+
+.quantity-control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.quantity-control button {
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    color: rgb(219, 188, 248);
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.order-form {
+    width: 55%;
+    height: 70vh;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    float: right;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+.order-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-form label {
+    margin: 10px;
+    color: rgb(214, 206, 251);
+}
+
+.order-form input, textarea {
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+    background: rgba(200, 185, 243, 0.798);
+    border: 2px solid rgb(80, 69, 132);
+    border-radius: 5px;
+    color: rgb(114, 74, 152);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.order-form textarea {
+    height: 250px;
+    color: rgb(114, 74, 152);
+}
+
+.order-form button {
+    width: 79%;
+    margin-left: 21%;
+    padding: 10px;
+    background: rgb(214, 206, 251);
+    border: 3px solid rgb(80, 69, 132);
+    border-radius: 10px;
+    color: rgb(80, 69, 132);
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.order-form button:hover {
+    background: rgb(80, 69, 132);
+    color: rgb(214, 206, 251);
+}
+
+@media screen and (max-width: 850px) {
+    .container {
+        width: 100%;
+        height: max-content;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .cart-list, .order-form {
+        width: 100%;
+    }
+
+    .cart-list {
+        border: none;
+    }
+}

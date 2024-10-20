@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-home {
+    width: 80%;
+    margin: 20px auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("../images/style/Texture.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.container-home h1 {
+    margin: 20px;
+    color: rgb(230, 229, 229);
+    font-size: 40px;
+}
+
+.container-home p {
+    margin: 20px;
+    color: rgb(230, 229, 229);
+    font-size: 20px;
+}
+
+.container-home img {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.container-home a {
+    width: 50%;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(100, 85, 171);
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container-home a button {
+    border: none;
+    background-color: rgba(230, 229, 229, 0);
+    color: rgb(229, 223, 255);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+    .container-home {
+        width: 100%;
+        margin: 0;
+    }
+
+    .container-home img {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .container-home {
+        width: 100%;
+        margin: 0;
+        background-position: calc(50% - 10px) center;
+    }
+
+    .container-home img {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
